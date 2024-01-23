@@ -1,5 +1,4 @@
 import Header from "@/components/common/header";
-import React from "react";
 import Image from "next/image";
 
 export default function About() {
@@ -8,7 +7,7 @@ export default function About() {
       <Header title="About Me" description="Little Brief About Myself" />
       <div className="w-full h-[0px] border border-neutral-400"></div>
       <div className="flex flex-col md:flex-row gap-5">
-        <div className="md:w-1/2 left-[42px] top-0 text-white text-[80px] font-bold font-['Syne'] leading-[84px]">
+        <div className="md:w-1/2 left-[42px] top-0 text-white text-[80px] font-bold font-syne leading-[84px]">
           My mission is to make design easier.
         </div>
         <div className="md:w-1/2 left-[612px] top-[18px] text-neutral-400 text-[21px] font-semibold font-['Open Sans'] leading-[39px]">

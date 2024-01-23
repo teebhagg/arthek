@@ -4,9 +4,9 @@ import './globals.css'
 import NavigationBar from '@/components/common/navbar'
 import Footer from '@/components/common/footer'
 
-const inter = Inter({ subsets: ['latin'] })
-const rubik = Rubik({ subsets: ['latin'] })
-const syne = Syne({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const rubik = Rubik({ subsets: ['latin'], variable: '--font-rubik' })
+const syne = Syne({ subsets: ['latin'], variable: '--font-syne' })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={rubik.className}>
+      <body className={`${rubik.variable} ${syne.variable} ${inter.variable}`}>
         <NavigationBar />
         {children}
         <Footer />

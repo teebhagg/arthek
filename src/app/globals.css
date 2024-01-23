@@ -74,4 +74,16 @@
     @apply bg-background text-foreground;
     background-color: #1A1A1A;
   }
+
+  .font-syne {
+    font-family: var(--font-syne);
+  }
+
+  .font-rubik {
+    font-family: var(--font-rubik);
+  }
+
+  .font-inter {
+    font-family: var(--font-inter);
+  }
 }
