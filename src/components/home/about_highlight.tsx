@@ -17,10 +17,10 @@ const AboutHighlights: React.FC<AboutHighlightsProps> = (
   return (
     <div className="max-w-7xl w-full p-6 mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
       <div className="w-full md:w-1/2 space-y-16 text-center md:text-left">
-        <div className="text-white text-[56px] font-bold font-syne">
+        <div className="text-white text-2xl md:4xl lg:text-5xl xl:text-6xl font-bold font-syne">
           <div className="relative">
             <p>{title}</p>
-            <div className="w-52 h-52 z-[-25px] backdrop-blur-sm bg-white opacity-20 absolute rounded-full top-[-30px] left-[-30px] animate-shake animate-infinite animate-ease-linear animate-duration-[3000ms]"></div>
+            <div className="w-32 h-32 lg:w-52 lg:h-52 z-[-25px] backdrop-blur-sm bg-white opacity-20 absolute rounded-full top-[-30px] left-[-30px] animate-shake animate-infinite animate-ease-linear animate-duration-[3000ms]"></div>
           </div>
         </div>
         <div className="text-neutral-400 text-lg font-normal font-rubik leading-7 tracking-wide">

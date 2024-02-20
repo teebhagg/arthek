@@ -17,7 +17,7 @@ const ProjectHighlights: React.FC<ProjectHighlightsProps> = (
   return (
     <div className="max-w-7xl w-full p-6 mx-auto space-y-[80px]">
       <div className="text-center space-y-10">
-        <div className="text-center text-white text-[64px] font-bold font-syne">
+        <div className="text-center text-white text-2xl md:4xl lg:text-5xl xl:text-6xl font-bold font-syne">
           My Projects Highlight
         </div>
         <Button className="border border-orange-400 bg-transparent hover:bg-orange-500 rounded-full space-x-5">
@@ -49,16 +49,16 @@ export const ProjectCard = ({ project }: { project: ProjectInterface }) => {
       <div className="rounded-lg flex-col justify-end items-start gap-8 inline-flex border-2 p-4 border-orange-400 border-opacity-0 hover:border-opacity-100 transition-all">
         <div className="flex-col w-full h-full justify-center items-center inline-flex">
           <Image
-            className="rounded-md ratio-4x3 object-cover w-full h-full"
+            className="rounded-md ratio-4x3 object-cover h-full"
             src={urlFor(project.featuredImage).url()}
             alt="project"
             width={500}
             height={600}
           />
         </div>
-        <div className="self-stretch h-[179px] flex-col justify-start items-start gap-8 inline-flex">
+        <div className="self-stretch  flex-col justify-start items-start gap-8 inline-flex">
           <div className="justify-start items-center gap-8 inline-flex">
-            <div className="text-white text-2xl font-bold font-syne leading-loose">
+            <div className="text-white text-lg md:text-2xl font-bold font-syne leading-loose">
               {project.title}
             </div>
             <div className="w-12 h-[0px] border border-orange-400"></div>

@@ -9,7 +9,7 @@ import Image from "next/image";
 export default async function Home() {
   const { homeData } = await getHomeData();
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between py-24 px-8 text-white space-y-64">
+    <main className="flex min-h-screen flex-col items-center justify-between py-24 px-2 md:px-4 lg:px-8 text-white space-y-64">
       <HeroSection title={homeData[0].header} />
       <AboutHighlights avatar={homeData[0].heroSection.avatar} description={homeData[0].heroSection.body} title={homeData[0].heroSection.title} />
       <ProjectHighlights projectData={homeData[0].projectsHighlight} />

@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
         <div className="space-y-5">
           <a
             href="mailto:bengyarthur@yahoo.co.uk"
-            className="text-center text-white text-[32px] md:text-[48px] lg:text-[64px] font-bold font-syne underline">
+            className="text-center text-white text-xl md:2xl lg:text-3xl xl:text-5xl font-bold font-syne underline">
             Bengyarthur@yahoo.co.uk
           </a>
           <div className="text-white text-2xl font-bold font-syne">
