@@ -65,12 +65,12 @@ export default function ProjectDetails() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           <img
-            className="w-full ratio-4x3 rounded-lg"
-            src="https://via.placeholder.com/555x600"
+            className="w-full h-full ratio-4x3 rounded-lg"
+            src="https://unblast.com/wp-content/uploads/2021/10/UI-UX-Vector-Illustration.jpg"
           />
           <img
-            className="w-full ratio-4x3 rounded-lg"
-            src="https://via.placeholder.com/555x600"
+            className="w-full h-full ratio-4x3 rounded-lg"
+            src="https://miro.medium.com/v2/resize:fit:1400/1*zT6FhDi6hB0uH6fO8ipmIw.png"
           />
         </div>
         <div className="space-y-5">
